@@ -1,0 +1,263 @@
+.menu {
+  position:fixed;
+  font-family:monospace;
+  font-size:15px;
+  background:#fff;
+   top:50px;
+   width:100%;
+   z-index:60;
+}
+.menu li {
+  display:inline;
+  margin-left:50px;
+}
+
+.radio {
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  z-index:50;
+  width:100px;
+  height:100px;
+  background:url('https://image.flaticon.com/icons/svg/1011/1011066.svg');
+  background-size:contain;
+     -moz-transition: all 0.15s ease-out;
+    -webkit-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+    cursor:pointer;
+}
+.radio:hover {
+  bottom:20px;
+  right:20px;
+  transform:rotate(20deg); 
+-ms-transform:rotate(20deg); /* Internet Explorer */
+-moz-transform:rotate(20deg); /* Firefox */
+-webkit-transform:rotate(20deg); /* Safari et Chrome */ 
+-o-transform:rotate(20deg); /* Opera */
+    -moz-transition: all 0.15s ease-out;
+    -webkit-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+.ban {
+    height:50px;
+}
+
+.bangauche {
+     position:fixed;
+     z-index:60;
+     top:0;
+     left:0;
+    height:50px;
+    background:#fff url('https://i.stack.imgur.com/QoWYn.png');
+    width:70%;
+    background-size:120px;
+    float:left;
+}
+a {
+  font-weight:600;
+}
+a:link {
+  text-decoration:none;
+  color:black;
+}
+a:visited {
+  color:black;
+}
+a:hover {
+  color:#ff768e;
+  text-decoration:underline dotted;
+}
+
+.soustitre {
+  font-family:monospace;
+  font-size:12px;
+  font-weight:100;
+  margin-left:50px;
+  border-bottom: solid 1px black;
+  padding-bottom: 3px;
+  width: 50%;
+}
+
+.bandroite {
+    position:fixed;
+    right:0;
+    top:0;
+    background:black;
+    width:30%;
+    float:right;
+    height:41px;
+    color:#fff;
+    font-family: 'Major Mono Display', monospace;
+    font-size:30px;
+    text-align:center;
+    padding-top:9px;
+}
+
+.partgauche {
+    height:50px;
+    width:60%;
+    margin-top:10px;
+    height:563px;
+    float:left;
+}
+
+.partdroite {
+    position:fixed;
+    right:0;
+    margin-top:10px;
+    height:563px;
+    width:40%;
+    float:right;
+}
+
+.image {
+ background:#f6b7c8 url('https://zupimages.net/up/19/06/f97i.jpg') center no-repeat;
+ background-size:contain;
+ width:90%;
+ height:500px;
+ margin:0 auto;
+ margin-top:90px;
+}
+.image2 {
+  background:url('https://zupimages.net/up/19/06/9jrq.jpg') center no-repeat;
+ background-size:contain;
+ width:90%;
+ height:500px;
+ margin:0 auto;
+}
+.textimage {
+  font-family: 'Major Mono Display', monospace;
+  font-weight:600;
+  font-size:40px;
+  position:relative;
+  top:-15px;
+  left:70px;
+}
+
+.apropos {
+    position:fixed;
+    bottom:0;
+    background:#fff;
+    font-family:monospace;
+    padding:20px;
+    width:15%;
+    right:0;
+    float:right;
+    border:solid 1px #d0d0d0;
+}
+
+
+.projets {
+  margin-top:90px;
+  height:409px;
+}
+
+.p1, .p2, .p3 {
+ font-family:monospace;
+ float:left;
+ text-align:right;
+ width:33%;.ban {
+    height:50px;
+}
+
+.bangauche {
+     position:fixed;
+     top:0;
+     left:0;
+    height:50px;
+    background:#fff url('https://i.stack.imgur.com/QoWYn.png');
+    width:70%;
+    background-size:120px;
+    float:left;
+}
+
+a:link {
+  text-decoration:none;
+  color:black;
+}
+a:visited {
+  color:black;
+  
+}
+a:hover {
+  color:#ff768e;
+  text-decoration: underline dotted;
+-moz-transition: all 0.15s ease-out;
+    -webkit-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+}
+
+.bandroite {
+    position:fixed;
+    right:0;
+    top:0;
+    background:black;
+    width:30%;
+    float:right;
+    height:41px;
+    color:#fff;
+    font-family: 'Major Mono Display', monospace;
+    font-size:30px;
+    text-align:center;
+    padding-top:9px;
+}
+
+.partgauche {
+    height:50px;
+    width:65%;
+    margin-top:10px;
+    height:563px;
+    float:left;
+}
+
+.partdroite {
+    position:fixed;
+    right:0;
+    margin-top:10px;
+    height:563px;
+    width:35%;
+    float:right;
+}
+
+.image {
+ background:#f6b7c8 url('https://zupimages.net/up/19/06/f97i.jpg') center no-repeat;
+ background-size:contain;
+ width:90%;
+ height:500px;
+ margin:0 auto;
+}
+.textimage {
+  font-family: 'Major Mono Display', monospace;
+  font-weight:600;
+  font-size:40px;
+  position:relative;
+  top:-15px;
+  left:70px;
+}
+
+.apropos {
+    position:fixed;
+    bottom:0;
+    background:#fff;
+    font-family:monospace;
+    padding:20px;
+    width:15%;
+    right:0;
+    float:right;
+    border:solid 1px #d0d0d0;
+}
+
+
+.projets {
+  margin-top:50px;
+  height:409px;
+}
+
+.p1, .p2, .p3 {
+ font-family:monospace;
+ float:left;
+ text-align:right;
+ width:33%;.ban {
+    height:50px;
+}
